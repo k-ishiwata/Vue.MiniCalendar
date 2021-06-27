@@ -4,8 +4,14 @@
 Vue.jsの他にAxiosも使用しているので読み込んでください。
 
 ```html
+<html>
+<head>
 <link rel="stylesheet" href="mini-calendar.css">
-<mini-calendar />
+</head>
+<body>
+<div id="app">
+    <mini-calendar />
+</div>
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
 <script src="mini-calendar.js"></script>
@@ -14,6 +20,8 @@ var app = new Vue({
 	el: '#app'
 });
 </script>
+</body>
+</html>
 ```
 
 ## イベントの表示
