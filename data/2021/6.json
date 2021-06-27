@@ -1,0 +1,21 @@
+{
+    "events": [
+        {
+            "day": 10,
+            "title": "イベント1",
+            "type": "blue"
+            
+        },{
+            "day": 13,
+            "title": "イベント2",
+            "type": "red"
+        },{
+            "day": 22,
+            "title": "イベント3",
+            "type": "green"
+        },{
+            "day": 28,
+            "title": "イベント4"
+        }
+    ]
+}

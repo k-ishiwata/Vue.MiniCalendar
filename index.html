@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<title>Vue.MiniCalendar Demo</title>
+	<link rel="stylesheet" href="mini-calendar.css">
+	<style>
+		*::after,
+		* {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		body {
+			color: #333;
+			background: #EFECE5;
+			font-size: 14px;
+			font-family: sans-serif;
+		}
+		.container {
+			width: 800px;
+			margin: 40px auto;
+			
+		}
+		@media screen and (max-width: 800px) {
+			.container {
+				width: 100%;
+				margin: 0;
+				padding: 0 5px;
+			}
+		}
+	</style>
+</head>
+<body>
+<div id="app">
+	<div class="container">
+		<mini-calendar />
+	</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+<script src="mini-calendar.js"></script>
+<script>
+var app = new Vue({
+	el: '#app'
+});
+</script>
+</body>
+</html>
